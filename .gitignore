@@ -1,0 +1,80 @@
+
+# Frontend dependencies and generated files
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Backend Python generated files
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.venv/
+backend/env/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# MRI datasets and patient data
+dataset/
+**/dataset/
+**/uploads/
+**/patient_data/
+
+# Python model and training artifacts
+backend/model/
+*.keras
+*.h5
+*.pkl
+
+# Local secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Backend secrets and uploaded images
+backend/.env
+backend/uploads/
+backend/__pycache__/
+
+# Trained model - keep local until deployment setup
+backend/model/
+
+# Python virtual environments
+backend/venv/
+backend/.venv/
+
+# Datasets and patient data
+dataset/
+**/dataset/
+**/uploads/
+**/patient_data/
+
+# Model artifacts
+*.keras
+*.h5
+*.pkl
+
+node_modules/
+dist/
+.env
+.env.*
+!.env.example

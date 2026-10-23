@@ -1,0 +1,319 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-low": "#191c1e", "primary-container": "#2e5bff", "on-background": "#e0e3e5", "surface-dim": "#101415", "on-primary-container": "#efefff", "surface-container-high": "#272a2c", "on-surface-variant": "#c4c5d9", "on-primary-fixed": "#001356", "on-tertiary-container": "#e9f0ff", "surface-variant": "#323537", "on-primary": "#002388", "surface-container-lowest": "#0b0f10", "on-secondary-fixed-variant": "#3f465c", "inverse-on-surface": "#2d3133", "surface-container": "#1d2022", "secondary": "#bec6e0", "tertiary-fixed-dim": "#b7c8e1", "surface": "#101415", "inverse-surface": "#e0e3e5", "on-secondary-fixed": "#131b2e", "tertiary": "#b7c8e1", "background": "#101415", "secondary-fixed-dim": "#bec6e0", "on-secondary": "#283044", "secondary-container": "#3f465c", "primary": "#b8c3ff", "outline": "#8e90a2", "on-error-container": "#ffdad6", "secondary-fixed": "#dae2fd", "tertiary-fixed": "#d3e4fe", "outline-variant": "#434656", "tertiary-container": "#5e6e85", "on-tertiary-fixed-variant": "#38485d", "on-tertiary-fixed": "#0b1c30", "on-primary-fixed-variant": "#0035be", "error-container": "#93000a", "on-surface": "#e0e3e5", "primary-fixed": "#dde1ff", "primary-fixed-dim": "#b8c3ff", "surface-tint": "#b8c3ff", "on-secondary-container": "#adb4ce", "surface-bright": "#363a3b", "inverse-primary": "#124af0", "surface-container-highest": "#323537", "on-tertiary": "#213145", "error": "#ffb4ab", "on-error": "#690005" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "stack-lg": "32px", "stack-sm": "8px", "container-margin": "24px", "unit": "4px", "gutter": "16px", "stack-md": "16px" }, "fontFamily": { "body-lg": ["Inter"], "label-caps": ["Inter"], "display-lg": ["Inter"], "headline-sm": ["Inter"], "body-md": ["Inter"], "body-sm": ["Inter"], "data-mono": ["JetBrains Mono"], "headline-md": ["Inter"] }, "fontSize": { "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }], "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }], "data-mono": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }] } } } }</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/></head><body class="bg-background font-body-md text-on-surface dark"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest z-50 flex flex-col shadow-[1px_0_0_rgba(255,255,255,0.05)]"><div class="px-container-margin py-stack-lg flex items-center gap-stack-sm"><div class="w-8 h-8 bg-primary-container rounded flex items-center justify-center"><span class="material-symbols-outlined text-on-primary-container text-[20px]">neurology</span></div><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">NeuroScan</span></div><nav class="flex-1 px-stack-md space-y-unit" data-active-classes="bg-surface-container-high text-primary"><a class="flex items-center gap-gutter px-stack-md py-stack-md rounded text-on-surface-variant hover:bg-surface-variant hover:text-on-surface transition-all group" data-path="diagnostic-workspace" href="#"><span class="material-symbols-outlined">view_quilt</span><span class="font-body-md">Diagnostic Workspace</span></a><a aria-current="page" class="flex items-center gap-gutter px-stack-md py-stack-md rounded transition-all group bg-surface-container-high text-primary" data-path="patient-records" href="#"><span class="material-symbols-outlined">folder_shared</span><span class="font-body-md">Patient Records</span></a><a class="flex items-center gap-gutter px-stack-md py-stack-md rounded text-on-surface-variant hover:bg-surface-variant hover:text-on-surface transition-all group" data-path="analytics-dashboard" href="#"><span class="material-symbols-outlined">analytics</span><span class="font-body-md">Analytics Dashboard</span></a><a class="flex items-center gap-gutter px-stack-md py-stack-md rounded text-on-surface-variant hover:bg-surface-variant hover:text-on-surface transition-all group" data-path="reports" href="#"><span class="material-symbols-outlined">description</span><span class="font-body-md">Reports</span></a></nav><div class="px-stack-md pt-stack-lg border-t border-outline-variant/20 mb-stack-lg"><a class="flex items-center gap-gutter px-stack-md py-stack-md rounded text-on-surface-variant hover:bg-surface-variant hover:text-on-surface transition-all group" data-path="settings" href="#"><span class="material-symbols-outlined">settings</span><span class="font-body-md">Settings</span></a></div></aside><div class="pl-72 flex flex-col min-h-screen"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-dim/80 backdrop-blur-xl z-40 flex items-center justify-between px-container-margin shadow-[0_1px_0_rgba(255,255,255,0.05)]"><div class="flex-1 max-w-xl"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-stack-md text-outline">search</span><input class="w-full bg-surface-container h-10 pl-11 pr-stack-md rounded font-body-sm text-on-surface placeholder:text-outline outline-none focus:ring-1 focus:ring-primary-container transition-all" placeholder="Search Patient ID, Name, or Case Number..." type="text"/></div></div><div class="flex items-center gap-stack-lg pl-stack-lg"><button class="text-on-surface-variant hover:text-primary transition-colors relative"><span class="material-symbols-outlined">notifications</span><div class="absolute top-0 right-0 w-2 h-2 bg-error rounded-full"></div></button><div class="h-8 w-[1px] bg-outline-variant/30"></div><div class="flex items-center gap-stack-md"><div class="text-right hidden sm:block"><div class="font-body-md text-on-surface">Dr. Aris Thorne</div><div class="font-label-caps text-label-caps text-on-surface-variant">Neuroradiologist</div></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 pt-16 bg-surface"><div class="flex flex-col w-full h-full relative">
+<!-- Floating Actions Header -->
+<div class="sticky top-0 z-30 flex items-center justify-between px-container-margin py-stack-md bg-surface/90 backdrop-blur-md">
+<div class="flex items-center gap-gutter">
+<span class="font-headline-md text-headline-md text-on-surface tracking-tight">Patient Database</span>
+<div class="h-6 w-px bg-outline-variant/30"></div>
+<span class="font-body-md text-body-md text-on-surface-variant font-mono">1,204 Active Records</span>
+</div>
+<div class="flex items-center gap-gutter">
+<!-- Search -->
+<div class="relative w-64 group">
+<span class="material-symbols-outlined absolute left-stack-sm top-1/2 -translate-y-1/2 text-outline-variant group-focus-within:text-primary transition-colors text-[20px]">search</span>
+<input class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm pl-9 pr-stack-sm py-2 rounded-lg outline-none focus:bg-surface-container-high transition-colors" id="patient-search" placeholder="Search ID, Name..." type="text"/>
+</div>
+<!-- Export -->
+<button class="flex items-center gap-2 px-4 py-2 bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-caps text-label-caps rounded-lg transition-colors">
+<span class="material-symbols-outlined text-[18px]">download</span>
+        EXPORT CSV
+      </button>
+<button class="flex items-center justify-center w-9 h-9 bg-primary text-on-primary rounded-lg shadow-sm shadow-primary/20 hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Main Content Area: Split View -->
+<div class="flex flex-1 px-container-margin pb-container-margin gap-stack-lg relative h-[calc(100vh-144px)]">
+<!-- Left Pane: Data Table -->
+<div class="flex-1 flex flex-col bg-surface-container-lowest rounded-xl shadow-md overflow-hidden relative">
+<!-- Table Header (Fixed) -->
+<div class="grid grid-cols-12 gap-unit px-stack-md py-3 bg-surface-container-low font-label-caps text-label-caps text-on-surface-variant sticky top-0 z-10 border-b border-surface-container">
+<div class="col-span-3">Patient Name</div>
+<div class="col-span-2">ID Number</div>
+<div class="col-span-1 text-center">Age</div>
+<div class="col-span-2">Last Scan</div>
+<div class="col-span-3">Primary Diagnosis</div>
+<div class="col-span-1 text-right">Status</div>
+</div>
+<!-- Table Body (Scrollable) -->
+<div class="flex-1 overflow-y-auto" id="patient-table">
+<!-- Row 1 (Active) -->
+<div class="grid grid-cols-12 gap-unit px-stack-md py-3 items-center hover:bg-surface-container-high transition-colors cursor-pointer bg-surface-container-low/50 relative overflow-hidden" onclick="togglePatientDetail('P-8472')">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<div class="col-span-3 flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center font-label-caps text-label-caps text-primary">EK</div>
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Eleanor Vance</span>
+</div>
+<div class="col-span-2 font-data-mono text-data-mono text-on-surface-variant">P-8472</div>
+<div class="col-span-1 font-body-sm text-body-sm text-on-surface-variant text-center">64</div>
+<div class="col-span-2 flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">Oct 12, 2023</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">14:30 EST</span>
+</div>
+<div class="col-span-3 flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-error"></div>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Glioblastoma (Grade IV)</span>
+</div>
+<div class="col-span-1 flex justify-end">
+<span class="px-2 py-1 bg-error-container/20 text-error font-label-caps text-label-caps rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+                CRIT
+             </span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="grid grid-cols-12 gap-unit px-stack-md py-3 items-center hover:bg-surface-container-high transition-colors cursor-pointer" onclick="togglePatientDetail('P-4911')">
+<div class="col-span-3 flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center font-label-caps text-label-caps text-on-surface-variant">JD</div>
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Jameson Locke</span>
+</div>
+<div class="col-span-2 font-data-mono text-data-mono text-on-surface-variant">P-4911</div>
+<div class="col-span-1 font-body-sm text-body-sm text-on-surface-variant text-center">42</div>
+<div class="col-span-2 flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">Oct 10, 2023</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">09:15 EST</span>
+</div>
+<div class="col-span-3 flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Routine Check (Clear)</span>
+</div>
+<div class="col-span-1 flex justify-end">
+<span class="px-2 py-1 bg-surface-variant text-on-surface-variant font-label-caps text-label-caps rounded">
+                STABLE
+             </span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="grid grid-cols-12 gap-unit px-stack-md py-3 items-center hover:bg-surface-container-high transition-colors cursor-pointer bg-surface-container-low/50" onclick="togglePatientDetail('P-9204')">
+<div class="col-span-3 flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center font-label-caps text-label-caps text-on-surface-variant">MR</div>
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Marcus Reed</span>
+</div>
+<div class="col-span-2 font-data-mono text-data-mono text-on-surface-variant">P-9204</div>
+<div class="col-span-1 font-body-sm text-body-sm text-on-surface-variant text-center">71</div>
+<div class="col-span-2 flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">Sep 28, 2023</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">11:00 EST</span>
+</div>
+<div class="col-span-3 flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Meningioma (Monitoring)</span>
+</div>
+<div class="col-span-1 flex justify-end">
+<span class="px-2 py-1 bg-primary/20 text-primary font-label-caps text-label-caps rounded">
+                MONITOR
+             </span>
+</div>
+</div>
+<!-- Row 4 -->
+<div class="grid grid-cols-12 gap-unit px-stack-md py-3 items-center hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="col-span-3 flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center font-label-caps text-label-caps text-on-surface-variant">AS</div>
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Amelia Song</span>
+</div>
+<div class="col-span-2 font-data-mono text-data-mono text-on-surface-variant">P-1184</div>
+<div class="col-span-1 font-body-sm text-body-sm text-on-surface-variant text-center">29</div>
+<div class="col-span-2 flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface">Sep 15, 2023</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">16:45 EST</span>
+</div>
+<div class="col-span-3 flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Migraine / Tension</span>
+</div>
+<div class="col-span-1 flex justify-end">
+<span class="px-2 py-1 bg-surface-variant text-on-surface-variant font-label-caps text-label-caps rounded">
+                STABLE
+             </span>
+</div>
+</div>
+<!-- Generated Rows for visual density -->
+<script>
+            const tbody = document.getElementById('patient-table');
+            const names = ["Caleb Wright", "Sofia Patel", "Liam Neeson", "Olivia Chen", "Mateo Garcia", "Zoe Barnes"];
+            const statuses = [
+                { color: "bg-surface-variant text-on-surface-variant", dot: "bg-outline-variant", label: "STABLE", diag: "Routine Check" },
+                { color: "bg-primary/20 text-primary", dot: "bg-primary", label: "MONITOR", diag: "Benign Cyst" },
+                { color: "bg-error-container/20 text-error", dot: "bg-error", label: "CRIT", icon: "warning", diag: "Aneurysm Risk" }
+            ];
+            
+            for(let i=0; i<15; i++) {
+                const isZebra = i % 2 !== 0;
+                const stat = statuses[Math.floor(Math.random() * statuses.length)];
+                const name = names[i % names.length];
+                const initials = name.split(' ').map(n=>n[0]).join('');
+                
+                const statHtml = stat.icon 
+                    ? `<span class="px-2 py-1 ${stat.color} font-label-caps text-label-caps rounded flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">${stat.icon}</span>${stat.label}</span>`
+                    : `<span class="px-2 py-1 ${stat.color} font-label-caps text-label-caps rounded">${stat.label}</span>`;
+
+                tbody.insertAdjacentHTML('beforeend', `
+                    <div class="grid grid-cols-12 gap-unit px-stack-md py-3 items-center hover:bg-surface-container-high transition-colors cursor-pointer ${isZebra ? 'bg-surface-container-low/50' : ''}">
+                        <div class="col-span-3 flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center font-label-caps text-label-caps text-on-surface-variant">${initials}</div>
+                            <span class="font-body-md text-body-md text-on-surface font-medium truncate">${name}</span>
+                        </div>
+                        <div class="col-span-2 font-data-mono text-data-mono text-on-surface-variant">P-${Math.floor(1000 + Math.random() * 9000)}</div>
+                        <div class="col-span-1 font-body-sm text-body-sm text-on-surface-variant text-center">${Math.floor(20 + Math.random() * 60)}</div>
+                        <div class="col-span-2 flex flex-col">
+                            <span class="font-body-sm text-body-sm text-on-surface">Aug ${Math.floor(1+Math.random()*30)}, 2023</span>
+                            <span class="font-label-caps text-label-caps text-on-surface-variant">08:00 EST</span>
+                        </div>
+                        <div class="col-span-3 flex items-center gap-2">
+                            <div class="w-2 h-2 rounded-full ${stat.dot}"></div>
+                            <span class="font-body-sm text-body-sm text-on-surface truncate">${stat.diag}</span>
+                        </div>
+                        <div class="col-span-1 flex justify-end">${statHtml}</div>
+                    </div>
+                `);
+            }
+        </script>
+</div>
+</div>
+<!-- Right Pane: Patient Detail & Timeline -->
+<div class="w-[420px] bg-surface-container shadow-xl rounded-xl flex flex-col overflow-hidden transition-all duration-300 ease-in-out border border-surface-container-highest/30" id="patient-detail-pane">
+<!-- Detail Header -->
+<div class="p-stack-md bg-surface-container-low flex flex-col relative overflow-hidden">
+<!-- Decorative Background -->
+<div class="absolute -right-8 -top-8 w-32 h-32 bg-primary/5 rounded-full blur-2xl"></div>
+<div class="flex justify-between items-start z-10">
+<div class="flex items-center gap-stack-sm">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center font-headline-sm text-headline-sm text-primary">EK</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface m-0 leading-tight">Eleanor Vance</h2>
+<p class="font-data-mono text-data-mono text-on-surface-variant">P-8472 • F, 64</p>
+</div>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</div>
+<div class="mt-stack-md z-10 flex gap-gutter">
+<div class="flex-1 bg-surface-container p-3 rounded-lg flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant mb-1">PRIMARY PHYSICIAN</span>
+<span class="font-body-sm text-body-sm text-on-surface">Dr. A. Thorne</span>
+</div>
+<div class="flex-1 bg-surface-container p-3 rounded-lg flex flex-col border-l-2 border-error/50">
+<span class="font-label-caps text-label-caps text-on-surface-variant mb-1">CURRENT STATUS</span>
+<span class="font-body-sm text-body-sm text-error font-medium">Critical - Pre-op</span>
+</div>
+</div>
+</div>
+<!-- Timeline Content -->
+<div class="flex-1 overflow-y-auto p-stack-md flex flex-col gap-stack-md bg-surface-container">
+<h3 class="font-label-caps text-label-caps text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px]">history</span>
+            SCAN HISTORY
+         </h3>
+<div class="relative pl-6">
+<!-- Timeline vertical line -->
+<div class="absolute left-1.5 top-2 bottom-4 w-px bg-outline-variant/30"></div>
+<!-- Timeline Item 1 -->
+<div class="relative mb-stack-lg group">
+<!-- Node -->
+<div class="absolute -left-6 top-1 w-3 h-3 rounded-full bg-primary ring-4 ring-surface-container z-10"></div>
+<div class="flex flex-col gap-unit mb-2">
+<span class="font-label-caps text-label-caps text-primary tracking-wider">OCT 12, 2023 - 14:30</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">MRI Brain w/wo Contrast</span>
+</div>
+<!-- Image Card -->
+<div class="bg-surface rounded-lg p-2 flex gap-3 items-start border border-outline-variant/20 hover:border-primary/50 transition-colors cursor-pointer">
+<div class="relative w-24 h-24 rounded bg-surface-container-lowest overflow-hidden flex-shrink-0">
+<div class="absolute inset-0 bg-cover bg-center mix-blend-screen opacity-90" data-alt="High contrast medical MRI scan of a human brain, axial view, black background, monochrome clinical imaging, showing a dense tumor mass in the right hemisphere with surrounding edema." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuANjdIX2I5dm2vSncw9EkvIc-hZoCLZ28PQHgeaYgTkYboSEBjNqL0G8kCG3aoWySZNU24_h0c93-PV4qpu51IfI8dozylsPn9yBGi9gtJo76OoAX-ofhwMYuWrXMaTRqb_Uc7ElJZNmMeUFLnJToISpzSpg4mqTuznNZay4IqXdWrNUtd8CD-id1kHt1RrVi48dNxnJPy8cYdvSqMb4Qge1bK1GX_fmhfnnuiQsN5l16TrQ2XmwEdU')"></div>
+<!-- Classification Badge -->
+<div class="absolute top-1 right-1 bg-error text-on-error font-data-mono text-[9px] px-1 rounded flex items-center shadow-sm">
+<span class="material-symbols-outlined text-[10px] mr-[2px]">warning</span> IV
+                        </div>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<div class="font-label-caps text-label-caps text-on-surface-variant">AI ANALYSIS RESULTS</div>
+<div class="flex items-center gap-2">
+<div class="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
+<div class="bg-error h-full w-[94%]"></div>
+</div>
+<span class="font-data-mono text-data-mono text-error">94%</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface mt-1 line-clamp-2 text-on-surface-variant">
+                            Significant progression of mass in right temporal lobe. Midline shift 4mm.
+                        </p>
+</div>
+</div>
+</div>
+<!-- Timeline Item 2 -->
+<div class="relative mb-stack-lg group">
+<!-- Node -->
+<div class="absolute -left-6 top-1 w-3 h-3 rounded-full bg-outline-variant ring-4 ring-surface-container z-10"></div>
+<div class="flex flex-col gap-unit mb-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider">SEP 01, 2023 - 09:15</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">MRI Brain w/wo Contrast</span>
+</div>
+<!-- Image Card -->
+<div class="bg-surface rounded-lg p-2 flex gap-3 items-start border border-outline-variant/20 hover:border-primary/50 transition-colors cursor-pointer">
+<div class="relative w-24 h-24 rounded bg-surface-container-lowest overflow-hidden flex-shrink-0">
+<div class="absolute inset-0 bg-cover bg-center mix-blend-screen opacity-80" data-alt="Clinical MRI scan of a human brain, axial view, black background, monochrome, showing a smaller dense mass in the right hemisphere." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB_YoUhBoh08oZtTCxT3TjfjQDhm9Oq_aguu3VdGXpn5SovyvnQWZoAnQtPpZBaY5E5qtmSX1czxNgkzzdJrEr95WzG0m7SucP0EojYsMH6CigZmsZb4912ObfBOn7osLNPNXGinJ-Pmwq7rHJ9ionOys241XLdFmXmkZAvWEluovsqfxcM-kmtGEwkHC3CX2u29RtfwPVvQkbVvM8GW5aSEYt9hO-nEYip5Xt_OJtuWcKENRtHquU0')"></div>
+<div class="absolute top-1 right-1 bg-error-container text-on-error-container font-data-mono text-[9px] px-1 rounded flex items-center">
+                            III
+                        </div>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<div class="font-label-caps text-label-caps text-on-surface-variant">AI ANALYSIS RESULTS</div>
+<div class="flex items-center gap-2">
+<div class="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
+<div class="bg-error-container h-full w-[72%]"></div>
+</div>
+<span class="font-data-mono text-data-mono text-error-container">72%</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface mt-1 line-clamp-2 text-on-surface-variant">
+                            Initial detection of anomalous growth. Biopsy recommended.
+                        </p>
+</div>
+</div>
+</div>
+<!-- Timeline Item 3 -->
+<div class="relative group">
+<!-- Node -->
+<div class="absolute -left-6 top-1 w-3 h-3 rounded-full bg-outline-variant ring-4 ring-surface-container z-10"></div>
+<div class="flex flex-col gap-unit mb-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider">JAN 15, 2022 - 11:00</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">CT Head Non-Contrast</span>
+</div>
+<!-- Image Card -->
+<div class="bg-surface rounded-lg p-2 flex gap-3 items-start border border-outline-variant/20 hover:border-primary/50 transition-colors cursor-pointer opacity-70">
+<div class="relative w-24 h-24 rounded bg-surface-container-lowest overflow-hidden flex-shrink-0">
+<div class="absolute inset-0 bg-cover bg-center mix-blend-screen opacity-70" data-alt="Medical CT scan of a human head, axial view, black background, monochrome clinical imaging, normal healthy appearance without anomalies." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuANDq0KGvixjTEF8RAx1MLk3-WiSvcogJ472wiCSLgIOT8f9HxVMj3mTbP08pm3UsxmP1KxMBHVe4b5BICN2t6GfDjOlioiW_tqPeMCbqVvOjWZKgX5VhP1gTcpAUiZazoQprNsHH9yc4HMfj6-fZvsuWDTCfMWQ5ZLGLTVNX5Gov6JBe1YvKt8BNSmlEWEubm4XveeestznCOS2CyiUhocY2tje8jEdeEGZsby2h_1_Q9voyRbq3Vh')"></div>
+</div>
+<div class="flex flex-col gap-1 flex-1 justify-center">
+<div class="font-label-caps text-label-caps text-on-surface-variant">STATUS</div>
+<span class="font-body-sm text-body-sm text-on-surface">No acute intracranial abnormality.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Bar Bottom -->
+<div class="p-stack-md bg-surface border-t border-surface-container-highest/50 flex justify-end gap-3">
+<button class="px-4 py-2 text-on-surface font-body-sm text-body-sm hover:bg-surface-variant rounded transition-colors">Close</button>
+<button class="px-4 py-2 bg-primary-container text-on-primary-container font-body-sm text-body-sm rounded shadow-sm hover:bg-primary transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">view_quilt</span>
+            Open in Workspace
+         </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function togglePatientDetail(id) {
+    // In a real app, this would fetch data and update the right pane.
+    // Here we just provide a tiny visual cue of interaction.
+    const pane = document.getElementById('patient-detail-pane');
+    pane.style.opacity = '0.5';
+    pane.style.transform = 'translateX(10px)';
+    
+    setTimeout(() => {
+        pane.style.opacity = '1';
+        pane.style.transform = 'translateX(0)';
+    }, 150);
+  }
+</script></main></div></body></html>
